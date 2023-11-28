@@ -1,7 +1,14 @@
-# Vanilla JavaScript App
+# Document Intelligence Demo Notebooks
 
-[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build JavaScript apps in minutes. Use this repo with the [quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=vanilla-javascript) to build and customize a new static site.
+## There are 2 notebooks in this repo
 
-This repo is used as a starter for a _very basic_ HTML web application using no front-end frameworks.
+### The first notebook, DocIntelDemo.ipynb, demonstrates OCR'ing a PDF using Document Intelligence.
+* Getting Paragraphs  
+* Getting Tables  
 
-This repo has a dev container. This means if you open it inside a [GitHub Codespace](https://github.com/features/codespaces), or using [VS Code with the remote containers extension](https://code.visualstudio.com/docs/remote/containers), it will be opened inside a container with all the dependencies already installed.
+### The second notebook, GetImages.ipynb, demonstrates saving embedded diagrams from a PDF page which was converted to an image.
+This notebook uses OpenCV
+* Getting a diagram.
+* Getting a diagram's title.
+* Constrcuting a bounding box to get both diagram and title.
+* Saving the bounding box to disk as an image.
